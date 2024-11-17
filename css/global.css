@@ -1,0 +1,144 @@
+/* Start Global Style */
+html {
+    scroll-behavior: smooth;
+}
+:root {
+  --poppins-bold: 'Poppins-Bold';
+  --poppins-light: 'Poppins-Light';
+  --poppins-black: 'Poppins-Black';
+  --poppins-medium: 'Poppins-Medium';
+  --poppins-regular: 'Poppins-Regular';
+  --poppins-regular: 'Poppins-Regular';
+  --Montserrat-bold: 'Montserrat-Bold';
+  --Montserrat-Regular: 'Montserrat-Regular';
+  --Montserrat-black: 'Montserrat-Black';
+  --Montserrat-light: 'Montserrat-light';
+  --fs-50: 3.125rem;
+  --fs-60:3.75rem;
+  --fs-13:0.8125rem;
+  --fs-16:1rem;
+  --fs-12:0.75rem;
+  --fs-40:2.5rem;
+  --fs-25:1.562rem;
+  --fs-30:1.875rem;
+  --padding-top-100:6.25rem;
+  --padding-bottom-100:6.25rem;
+  --color-999999:#999999;
+  --w-80:95%;
+  --custom-gap:55px;
+  --color-343434:#343434;
+  --color748182:#748182;
+  --customshadow:0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+}
+.color748182{
+    color: var(--color748182);
+}
+.custom-gap{
+    gap: var(--custom-gap);
+}
+.w-80{
+    width:var(--w-80);
+}
+.poppins-bold{
+    font-family: var(--poppins-bold);
+}
+.poppins-light{
+    font-family: var(--poppins-light);
+}
+.poppins-black{
+    font-family: var(--poppins-black);
+}
+.poppins-medium{
+    font-family: var(--poppins-medium);
+}
+.poppins-regular{
+    font-family: var(--poppins-regular);
+}
+.Montserrat-bold{
+    font-family: var(--Montserrat-bold);
+}
+.Montserrat-black{
+    font-family: var(--Montserrat-black);
+}
+.Montserrat-regular{
+    font-family: var(--Montserrat-Regular);
+}
+.Montserrat-light{
+    font-family: var(--Montserrat-light);
+}
+.fs-50{
+    font-size: var(--fs-50);
+}
+.fs-30{
+    font-size: var(--fs-30);
+}
+.fs-60{
+    font-size: var(--fs-60);
+}
+.fs-12{
+    font-size: var(--fs-12);
+}
+.fs-16{
+    font-size: var(--fs-16);
+}
+.fs-25{
+    font-size: var(--fs-25);
+}
+.fs-60{
+    font-size: var(--fs-60);
+}
+.fs-40{
+    font-size: var(--fs-40);
+}
+.custom-shadow{
+    box-shadow: var(--customshadow);
+}
+body{
+    /* background-color: aqua; */
+    margin:0;
+    font-family: 'poppins';
+
+}
+.color343434{
+    color: var(--color-343434);
+}
+a{
+    text-decoration: none;
+}
+/* Set a font family */
+@font-face {
+    font-family: 'poppins-bold';
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: 'poppins-light';
+    src: url(../fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: 'poppins-black';
+    src: url(../fonts/Poppins-Black.ttf);
+}
+@font-face {
+    font-family: 'poppins-medium';
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url(../fonts/Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-light';
+    src: url(../fonts/Montserrat-Light.ttf);
+}
